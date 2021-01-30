@@ -1,3 +1,14 @@
+#code 1
+
+def dict_zip(employee_numbers, employee_names):
+    zipped_values = zip(employee_numbers, employee_names)
+    d = dict(zip(employee_numbers, employee_names))
+    print(d)
+
+dict_zip([2, 9, 4], ['Vasil', 'Pedro', 'Ivasik'])
+
+#code 2
+
 def dict_(a, b):
     d = {a: b}
     n = d.items()
@@ -5,10 +16,6 @@ def dict_(a, b):
         print(key, 'is', value)
 
 dict_(1, 2)
-
-dict_(11, 22)
-
-dict_(111, 222)
 
 dict_("War", "peace")
 
